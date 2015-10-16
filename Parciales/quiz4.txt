@@ -1,0 +1,25 @@
+public class Emperador
+{
+    
+    public Emperador(double monto )
+    {
+   
+            
+              
+            
+               if (monto >= 500) {
+                   monto = monto - (monto * .30);
+                   System.out.println(" Con Descuento Del 30%"+monto);
+               }
+               if (monto < 500 && monto >= 200) {
+                   monto = monto - (monto * .20);
+                   System.out.println("Con Descuendo Del 20%"+monto);
+               }
+               if (monto < 200 && monto >= 100) {
+                   monto = monto - (monto * .10);
+                   System.out.println(" Con Descuento Del 10%"+monto);
+               }
+               
+               }
+    }
+
